@@ -111,9 +111,9 @@ const Header = ({ classes, children, showFooter }) => {
             <Logo />
           </Link>
           <div className={classes.github}>
-            <Link to='/home'>
+            <a href='https://github.com/justusmary/charyeok' target="blank">
               <GitHubIcon color="primary"/>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -128,9 +128,9 @@ const Header = ({ classes, children, showFooter }) => {
             <Logo className={classes.mobile_logo} />
           </Link>
           <div className={classes.github}>
-            <Link to='/home'>
+            <a href='https://github.com/justusmary/charyeok' target="blank">
               <GitHubIcon color="primary"/>
-            </Link>
+            </a>
           </div>
         </div>
       </div>
