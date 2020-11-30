@@ -35,7 +35,6 @@ const Form = ({ classes, screenSize, addNote }) => {
 
   const handleSubmit = (event) => {
     event.preventDefault()
-    console.log('here')
     if (message !== '') {
       addNote({
         date: selectedDate,

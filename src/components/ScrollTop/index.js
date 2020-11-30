@@ -10,7 +10,6 @@ const ScrollTop = ({ match }) => {
     } else {
       window.scroll(0, 0)
     }
-    console.log(match)
   }, [match])
   return null
 }

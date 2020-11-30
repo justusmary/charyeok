@@ -13,9 +13,9 @@ export const ThemeContext = createContext()
 
 const ThemeContextProvider = ({ children }) => {
 
-  const [ currentTheme, setTheme ] = useState(Dark)
+  const [ currentTheme, setTheme ] = useState(Default)
 
-  const changeTheme = (theme = 'dark') => {
+  const changeTheme = (theme = 'default') => {
     setTheme(themes[`${theme}`])
   }
 
